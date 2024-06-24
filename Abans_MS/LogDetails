@@ -1,0 +1,409 @@
+2024-04-12T09:26:22.758+05:30  INFO 2440 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 2440 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T09:26:22.772+05:30  INFO 2440 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T09:26:24.216+05:30  INFO 2440 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:26:24.298+05:30  INFO 2440 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T09:26:24.360+05:30  INFO 2440 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T09:26:24.360+05:30  INFO 2440 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 0 JDBC repository interfaces.
+2024-04-12T09:26:24.374+05:30  INFO 2440 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:26:24.376+05:30  INFO 2440 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T09:26:24.409+05:30  INFO 2440 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-04-12T09:26:25.290+05:30  INFO 2440 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T09:26:25.319+05:30  INFO 2440 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T09:26:25.320+05:30  INFO 2440 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T09:26:25.388+05:30  INFO 2440 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T09:26:25.388+05:30  INFO 2440 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2449 ms
+2024-04-12T09:26:25.656+05:30  INFO 2440 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T09:26:25.746+05:30  INFO 2440 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T09:26:25.783+05:30  INFO 2440 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T09:26:26.090+05:30  INFO 2440 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T09:26:26.127+05:30  INFO 2440 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T09:26:26.372+05:30  INFO 2440 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1322b575
+2024-04-12T09:26:26.374+05:30  INFO 2440 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T09:26:26.452+05:30  WARN 2440 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T09:26:27.265+05:30  INFO 2440 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T09:26:27.321+05:30  INFO 2440 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:26:27.384+05:30  WARN 2440 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T09:26:28.419+05:30  INFO 2440 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T09:26:28.428+05:30  INFO 2440 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 6.308 seconds (process running for 8.946)
+2024-04-12T09:26:34.665+05:30  INFO 2440 --- [Abans_MS] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T09:26:34.667+05:30  INFO 2440 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T09:26:34.669+05:30  INFO 2440 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-12T09:36:14.776+05:30  INFO 2440 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:36:14.781+05:30  INFO 2440 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T09:36:14.794+05:30  INFO 2440 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T09:36:21.545+05:30  INFO 9956 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 9956 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T09:36:21.548+05:30  INFO 9956 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T09:36:22.327+05:30  INFO 9956 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:36:22.328+05:30  INFO 9956 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T09:36:22.361+05:30  INFO 9956 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T09:36:22.362+05:30  INFO 9956 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JDBC repository interfaces.
+2024-04-12T09:36:22.372+05:30  INFO 9956 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:36:22.373+05:30  INFO 9956 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T09:36:22.403+05:30  INFO 9956 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-04-12T09:36:22.907+05:30  INFO 9956 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T09:36:22.918+05:30  INFO 9956 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T09:36:22.919+05:30  INFO 9956 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T09:36:22.967+05:30  INFO 9956 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T09:36:22.967+05:30  INFO 9956 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1347 ms
+2024-04-12T09:36:23.116+05:30  INFO 9956 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T09:36:23.180+05:30  INFO 9956 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T09:36:23.222+05:30  INFO 9956 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T09:36:23.472+05:30  INFO 9956 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T09:36:23.509+05:30  INFO 9956 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T09:36:23.751+05:30  INFO 9956 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77ce88c4
+2024-04-12T09:36:23.756+05:30  INFO 9956 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T09:36:23.821+05:30  WARN 9956 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T09:36:24.770+05:30  INFO 9956 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T09:36:24.815+05:30  INFO 9956 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:36:25.057+05:30  WARN 9956 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T09:36:25.450+05:30  INFO 9956 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T09:36:25.457+05:30  INFO 9956 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 4.48 seconds (process running for 5.338)
+2024-04-12T09:36:36.228+05:30  INFO 9956 --- [Abans_MS] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T09:36:36.228+05:30  INFO 9956 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T09:36:36.229+05:30  INFO 9956 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-12T09:36:42.845+05:30  INFO 9956 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:36:42.847+05:30  INFO 9956 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T09:36:42.854+05:30  INFO 9956 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T09:55:04.730+05:30  INFO 6532 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 6532 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T09:55:04.732+05:30  INFO 6532 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T09:55:05.630+05:30  INFO 6532 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:55:05.632+05:30  INFO 6532 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T09:55:05.665+05:30  INFO 6532 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T09:55:05.666+05:30  INFO 6532 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
+2024-04-12T09:55:05.677+05:30  INFO 6532 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:55:05.679+05:30  INFO 6532 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T09:55:05.710+05:30  INFO 6532 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-04-12T09:55:06.390+05:30  INFO 6532 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T09:55:06.408+05:30  INFO 6532 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T09:55:06.409+05:30  INFO 6532 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T09:55:06.478+05:30  INFO 6532 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T09:55:06.478+05:30  INFO 6532 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1665 ms
+2024-04-12T09:55:06.776+05:30  INFO 6532 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T09:55:06.972+05:30  INFO 6532 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T09:55:07.127+05:30  INFO 6532 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T09:55:07.693+05:30  INFO 6532 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T09:55:07.726+05:30  INFO 6532 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T09:55:07.930+05:30  INFO 6532 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e27f603
+2024-04-12T09:55:07.931+05:30  INFO 6532 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T09:55:08.004+05:30  WARN 6532 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T09:55:08.881+05:30  INFO 6532 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T09:55:08.971+05:30  INFO 6532 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:55:09.276+05:30  WARN 6532 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T09:55:09.719+05:30  INFO 6532 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T09:55:09.726+05:30  INFO 6532 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 5.656 seconds (process running for 6.626)
+2024-04-12T09:55:16.844+05:30  INFO 6532 --- [Abans_MS] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T09:55:16.844+05:30  INFO 6532 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T09:55:16.845+05:30  INFO 6532 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-12T09:55:30.679+05:30  INFO 6532 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:55:30.682+05:30  INFO 6532 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T09:55:30.701+05:30  INFO 6532 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T09:56:58.488+05:30  INFO 11884 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 11884 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T09:56:58.493+05:30  INFO 11884 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T09:56:59.244+05:30  INFO 11884 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:56:59.245+05:30  INFO 11884 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T09:56:59.272+05:30  INFO 11884 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T09:56:59.273+05:30  INFO 11884 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2024-04-12T09:56:59.282+05:30  INFO 11884 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:56:59.283+05:30  INFO 11884 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T09:56:59.308+05:30  INFO 11884 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-04-12T09:56:59.796+05:30  INFO 11884 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T09:56:59.807+05:30  INFO 11884 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T09:56:59.807+05:30  INFO 11884 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T09:56:59.865+05:30  INFO 11884 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T09:56:59.865+05:30  INFO 11884 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1290 ms
+2024-04-12T09:57:00.001+05:30  INFO 11884 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T09:57:00.069+05:30  INFO 11884 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T09:57:00.105+05:30  INFO 11884 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T09:57:00.339+05:30  INFO 11884 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T09:57:00.362+05:30  INFO 11884 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T09:57:00.520+05:30  INFO 11884 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f0677f3
+2024-04-12T09:57:00.522+05:30  INFO 11884 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T09:57:00.575+05:30  WARN 11884 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T09:57:01.329+05:30  INFO 11884 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T09:57:01.371+05:30  INFO 11884 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:57:01.676+05:30  WARN 11884 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T09:57:02.083+05:30  INFO 11884 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T09:57:02.092+05:30  INFO 11884 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 4.214 seconds (process running for 5.269)
+2024-04-12T09:57:19.317+05:30  INFO 11884 --- [Abans_MS] [http-nio-8081-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T09:57:19.318+05:30  INFO 11884 --- [Abans_MS] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T09:57:19.319+05:30  INFO 11884 --- [Abans_MS] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-12T09:57:50.598+05:30  WARN 11884 --- [Abans_MS] [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-04-12T09:59:46.146+05:30  INFO 11884 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:59:46.148+05:30  INFO 11884 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T09:59:46.155+05:30  INFO 11884 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T09:59:51.803+05:30  INFO 13200 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 13200 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T09:59:51.806+05:30  INFO 13200 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T09:59:52.551+05:30  INFO 13200 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:59:52.552+05:30  INFO 13200 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T09:59:52.583+05:30  INFO 13200 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T09:59:52.584+05:30  INFO 13200 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JDBC repository interfaces.
+2024-04-12T09:59:52.596+05:30  INFO 13200 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T09:59:52.596+05:30  INFO 13200 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T09:59:52.625+05:30  INFO 13200 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-04-12T09:59:53.111+05:30  INFO 13200 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T09:59:53.122+05:30  INFO 13200 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T09:59:53.122+05:30  INFO 13200 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T09:59:53.178+05:30  INFO 13200 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T09:59:53.178+05:30  INFO 13200 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1318 ms
+2024-04-12T09:59:53.314+05:30  INFO 13200 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T09:59:53.382+05:30  INFO 13200 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T09:59:53.408+05:30  INFO 13200 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T09:59:53.665+05:30  INFO 13200 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T09:59:53.692+05:30  INFO 13200 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T09:59:53.825+05:30  INFO 13200 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9d99851
+2024-04-12T09:59:53.826+05:30  INFO 13200 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T09:59:53.880+05:30  WARN 13200 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T09:59:54.618+05:30  INFO 13200 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T09:59:54.656+05:30  INFO 13200 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T09:59:54.900+05:30  WARN 13200 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T09:59:55.306+05:30  INFO 13200 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T09:59:55.314+05:30  INFO 13200 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 4.06 seconds (process running for 5.006)
+2024-04-12T10:00:01.378+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T10:00:01.378+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T10:00:01.382+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-04-12T10:00:01.701+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-2] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:00:01.702+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-2] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:00:01.702+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-2] c.e.A.service.Impl.ItesmServiceImpl      : hit save null else
+2024-04-12T10:01:08.459+05:30  WARN 13200 --- [Abans_MS] [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.example.Abans_MS.dto.CommonResponse> com.example.Abans_MS.controller.AbanceItemController.saveItem(com.example.Abans_MS.dto.ItemAbanceDto)]
+2024-04-12T10:01:16.309+05:30  WARN 13200 --- [Abans_MS] [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.example.Abans_MS.dto.CommonResponse> com.example.Abans_MS.controller.AbanceItemController.saveItem(com.example.Abans_MS.dto.ItemAbanceDto)]
+2024-04-12T10:01:29.156+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-9] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:01:29.156+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-9] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:01:29.156+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-9] c.e.A.service.Impl.ItesmServiceImpl      : hit save null else
+2024-04-12T10:01:32.186+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-10] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:01:32.186+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-10] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:01:32.187+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-10] c.e.A.service.Impl.ItesmServiceImpl      : hit save null else
+2024-04-12T10:01:34.589+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:01:34.589+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:01:34.589+05:30  INFO 13200 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.service.Impl.ItesmServiceImpl      : hit save null else
+2024-04-12T10:02:30.620+05:30  INFO 13200 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:02:30.622+05:30  INFO 13200 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T10:02:30.628+05:30  INFO 13200 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T10:02:35.203+05:30  INFO 9480 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 9480 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T10:02:35.206+05:30  INFO 9480 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T10:02:36.014+05:30  INFO 9480 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:02:36.016+05:30  INFO 9480 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T10:02:36.078+05:30  INFO 9480 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T10:02:36.080+05:30  INFO 9480 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 0 JDBC repository interfaces.
+2024-04-12T10:02:36.103+05:30  INFO 9480 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:02:36.105+05:30  INFO 9480 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T10:02:36.139+05:30  INFO 9480 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-04-12T10:02:36.684+05:30  INFO 9480 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T10:02:36.695+05:30  INFO 9480 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T10:02:36.696+05:30  INFO 9480 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T10:02:36.793+05:30  INFO 9480 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T10:02:36.794+05:30  INFO 9480 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1501 ms
+2024-04-12T10:02:37.016+05:30  INFO 9480 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T10:02:37.065+05:30  INFO 9480 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T10:02:37.093+05:30  INFO 9480 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T10:02:37.349+05:30  INFO 9480 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T10:02:37.372+05:30  INFO 9480 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T10:02:37.515+05:30  INFO 9480 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fd7b79
+2024-04-12T10:02:37.517+05:30  INFO 9480 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T10:02:37.576+05:30  WARN 9480 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T10:02:38.342+05:30  INFO 9480 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T10:02:38.394+05:30  INFO 9480 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:02:38.645+05:30  WARN 9480 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T10:02:39.045+05:30  INFO 9480 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T10:02:39.052+05:30  INFO 9480 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 4.491 seconds (process running for 5.293)
+2024-04-12T10:02:42.843+05:30  INFO 9480 --- [Abans_MS] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T10:02:42.843+05:30  INFO 9480 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T10:02:42.845+05:30  INFO 9480 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-12T10:02:42.954+05:30  INFO 9480 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:02:42.954+05:30  INFO 9480 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:02:42.970+05:30 ERROR 9480 --- [Abans_MS] [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because the return value of "com.example.Abans_MS.dto.ItemAbanceDto.getItemName()" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "String.isEmpty()" because the return value of "com.example.Abans_MS.dto.ItemAbanceDto.getItemName()" is null
+	at com.example.Abans_MS.service.Impl.ItesmServiceImpl.saveItem(ItesmServiceImpl.java:73) ~[classes/:na]
+	at com.example.Abans_MS.controller.AbanceItemController.saveItem(AbanceItemController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.5.jar:6.1.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.5.jar:6.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-04-12T10:02:56.502+05:30  INFO 9480 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:02:56.505+05:30  INFO 9480 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T10:02:56.512+05:30  INFO 9480 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T10:03:01.264+05:30  INFO 5592 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 5592 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T10:03:01.268+05:30  INFO 5592 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T10:03:01.972+05:30  INFO 5592 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:03:01.973+05:30  INFO 5592 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T10:03:02.000+05:30  INFO 5592 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T10:03:02.001+05:30  INFO 5592 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2024-04-12T10:03:02.011+05:30  INFO 5592 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:03:02.012+05:30  INFO 5592 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T10:03:02.037+05:30  INFO 5592 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-04-12T10:03:02.524+05:30  INFO 5592 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T10:03:02.543+05:30  INFO 5592 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T10:03:02.543+05:30  INFO 5592 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T10:03:02.612+05:30  INFO 5592 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T10:03:02.613+05:30  INFO 5592 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1273 ms
+2024-04-12T10:03:02.755+05:30  INFO 5592 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T10:03:02.812+05:30  INFO 5592 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T10:03:02.841+05:30  INFO 5592 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T10:03:03.071+05:30  INFO 5592 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T10:03:03.093+05:30  INFO 5592 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T10:03:03.233+05:30  INFO 5592 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75839695
+2024-04-12T10:03:03.235+05:30  INFO 5592 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T10:03:03.283+05:30  WARN 5592 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T10:03:04.015+05:30  INFO 5592 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T10:03:04.061+05:30  INFO 5592 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:03:04.324+05:30  WARN 5592 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T10:03:04.732+05:30  INFO 5592 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T10:03:04.740+05:30  INFO 5592 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 4.041 seconds (process running for 4.837)
+2024-04-12T10:03:12.605+05:30  INFO 5592 --- [Abans_MS] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T10:03:12.605+05:30  INFO 5592 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T10:03:12.607+05:30  INFO 5592 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-12T10:03:12.743+05:30  INFO 5592 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:03:12.743+05:30  INFO 5592 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:03:12.744+05:30  INFO 5592 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.service.Impl.ItesmServiceImpl      : hit save null check
+2024-04-12T10:16:02.469+05:30  INFO 5592 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:16:02.472+05:30  INFO 5592 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T10:16:02.481+05:30  INFO 5592 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T10:16:08.071+05:30  INFO 932 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 932 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T10:16:08.084+05:30  INFO 932 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T10:16:09.521+05:30  INFO 932 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:16:09.522+05:30  INFO 932 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T10:16:09.554+05:30  INFO 932 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T10:16:09.554+05:30  INFO 932 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2024-04-12T10:16:09.564+05:30  INFO 932 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:16:09.565+05:30  INFO 932 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T10:16:09.590+05:30  INFO 932 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-04-12T10:16:10.092+05:30  INFO 932 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T10:16:10.103+05:30  INFO 932 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T10:16:10.104+05:30  INFO 932 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T10:16:10.170+05:30  INFO 932 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T10:16:10.171+05:30  INFO 932 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2018 ms
+2024-04-12T10:16:10.309+05:30  INFO 932 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T10:16:10.376+05:30  INFO 932 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T10:16:10.408+05:30  INFO 932 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T10:16:10.657+05:30  INFO 932 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T10:16:10.682+05:30  INFO 932 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T10:16:10.836+05:30  INFO 932 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b6701e
+2024-04-12T10:16:10.838+05:30  INFO 932 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T10:16:10.899+05:30  WARN 932 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T10:16:11.669+05:30  INFO 932 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T10:16:11.710+05:30  INFO 932 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:16:11.978+05:30  WARN 932 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T10:16:12.458+05:30  INFO 932 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T10:16:12.470+05:30  INFO 932 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 5.11 seconds (process running for 5.991)
+2024-04-12T10:20:17.352+05:30  INFO 932 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:20:17.355+05:30  INFO 932 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T10:20:17.363+05:30  INFO 932 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T10:20:22.349+05:30  INFO 12848 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 12848 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T10:20:22.352+05:30  INFO 12848 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T10:20:23.061+05:30  INFO 12848 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:20:23.062+05:30  INFO 12848 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T10:20:23.090+05:30  INFO 12848 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T10:20:23.091+05:30  INFO 12848 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2024-04-12T10:20:23.100+05:30  INFO 12848 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:20:23.101+05:30  INFO 12848 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T10:20:23.137+05:30  INFO 12848 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-04-12T10:20:23.716+05:30  INFO 12848 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T10:20:23.734+05:30  INFO 12848 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T10:20:23.735+05:30  INFO 12848 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T10:20:23.791+05:30  INFO 12848 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T10:20:23.792+05:30  INFO 12848 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1370 ms
+2024-04-12T10:20:23.973+05:30  INFO 12848 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T10:20:24.070+05:30  INFO 12848 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T10:20:24.104+05:30  INFO 12848 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T10:20:24.424+05:30  INFO 12848 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T10:20:24.448+05:30  INFO 12848 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T10:20:24.606+05:30  INFO 12848 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77ce88c4
+2024-04-12T10:20:24.608+05:30  INFO 12848 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T10:20:24.668+05:30  WARN 12848 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T10:20:25.488+05:30  INFO 12848 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T10:20:25.538+05:30  INFO 12848 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:20:25.833+05:30  WARN 12848 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T10:20:26.254+05:30  INFO 12848 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T10:20:26.262+05:30  INFO 12848 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 4.447 seconds (process running for 5.261)
+2024-04-12T10:20:33.814+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T10:20:33.814+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T10:20:33.816+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-12T10:20:33.979+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:20:33.979+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:20:33.979+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-1] c.e.A.service.Impl.ItesmServiceImpl      : hit save null check
+2024-04-12T10:22:01.163+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-3] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:22:01.164+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-3] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:22:01.706+05:30 ERROR 12848 --- [Abans_MS] [http-nio-8081-exec-3] c.e.A.service.Impl.ItesmServiceImpl      : Item with ID 1 already exists
+2024-04-12T10:22:11.258+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-5] c.e.A.controller.AbanceItemController    : hit save controller
+2024-04-12T10:22:11.258+05:30  INFO 12848 --- [Abans_MS] [http-nio-8081-exec-5] c.e.A.service.Impl.ItesmServiceImpl      : hit save serviceImpl class
+2024-04-12T10:31:20.271+05:30  INFO 12848 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:31:20.273+05:30  INFO 12848 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T10:31:20.288+05:30  INFO 12848 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-12T10:33:35.960+05:30  INFO 10924 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Starting AbansMsApplication using Java 21.0.2 with PID 10924 (C:\Users\sehan\Downloads\Spring boot class\Abans_MS\target\classes started by sehan in C:\Users\sehan\Downloads\Spring boot class\Abans_MS)
+2024-04-12T10:33:35.964+05:30  INFO 10924 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-04-12T10:33:36.675+05:30  INFO 10924 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:33:36.677+05:30  INFO 10924 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-04-12T10:33:36.716+05:30  INFO 10924 --- [Abans_MS] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Abans_MS.repository.ItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-04-12T10:33:36.717+05:30  INFO 10924 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JDBC repository interfaces.
+2024-04-12T10:33:36.728+05:30  INFO 10924 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-04-12T10:33:36.729+05:30  INFO 10924 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-12T10:33:36.755+05:30  INFO 10924 --- [Abans_MS] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-04-12T10:33:37.335+05:30  INFO 10924 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-04-12T10:33:37.347+05:30  INFO 10924 --- [Abans_MS] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-12T10:33:37.347+05:30  INFO 10924 --- [Abans_MS] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-12T10:33:37.397+05:30  INFO 10924 --- [Abans_MS] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-12T10:33:37.397+05:30  INFO 10924 --- [Abans_MS] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1356 ms
+2024-04-12T10:33:37.551+05:30  INFO 10924 --- [Abans_MS] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-12T10:33:37.607+05:30  INFO 10924 --- [Abans_MS] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-12T10:33:37.635+05:30  INFO 10924 --- [Abans_MS] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-12T10:33:37.912+05:30  INFO 10924 --- [Abans_MS] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-12T10:33:37.934+05:30  INFO 10924 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-12T10:33:38.082+05:30  INFO 10924 --- [Abans_MS] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cd3fc29
+2024-04-12T10:33:38.084+05:30  INFO 10924 --- [Abans_MS] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-12T10:33:38.154+05:30  WARN 10924 --- [Abans_MS] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-12T10:33:38.995+05:30  INFO 10924 --- [Abans_MS] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-12T10:33:39.041+05:30  INFO 10924 --- [Abans_MS] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:33:39.338+05:30  WARN 10924 --- [Abans_MS] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-12T10:33:39.788+05:30  INFO 10924 --- [Abans_MS] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-04-12T10:33:39.797+05:30  INFO 10924 --- [Abans_MS] [main] c.example.Abans_MS.AbansMsApplication    : Started AbansMsApplication in 4.372 seconds (process running for 5.228)
+2024-04-12T10:34:45.393+05:30  INFO 10924 --- [Abans_MS] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12T10:34:45.394+05:30  INFO 10924 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-12T10:34:45.395+05:30  INFO 10924 --- [Abans_MS] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-12T10:53:59.858+05:30  INFO 10924 --- [Abans_MS] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-12T10:53:59.861+05:30  INFO 10924 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-12T10:53:59.872+05:30  INFO 10924 --- [Abans_MS] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
